@@ -4,7 +4,7 @@ description: "An overview of Linux distributions, their purposes, and why they a
 pubDate: 2025-04-16
 heroImage: "/linuxdistro.png"
 readingTime: "8 min read"
-tags: ["Linux", "Distributions", "Operating Systems"]
+tags: ["Notes", "Distributions", "Operating Systems"]
 ---
 
 # Linux Distributions
