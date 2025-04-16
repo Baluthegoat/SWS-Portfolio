@@ -7,7 +7,7 @@ readingTime: "6 min read"
 tags: ["Notes", "Shell", "Linux", "Command Line"]
 ---
 
-# Shell and Terminal Overview
+## Shell 
 
 A **shell** is a text-based interface between users and the kernel, enabling command execution to control the system. It is also referred to as the **command line** or **console**. The shell's primary functions include navigating directories, working with files, retrieving system information, and executing system commands.
 
