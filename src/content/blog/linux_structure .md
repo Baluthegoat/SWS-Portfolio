@@ -2,7 +2,7 @@
 title: "Linux Structure"
 description: "An in-depth overview of Linux architecture, history, and core components."
 pubDate: 2025-04-16
-heroImage: "/imagecopy.jpg"
+heroImage: "/imagecopy.png"
 tags: ["Notes", "Linux", "Operating Systems"]
 ---
 
