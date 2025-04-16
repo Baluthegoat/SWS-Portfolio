@@ -91,3 +91,113 @@ A **shell** is a text-based interface between users and the kernel, enabling com
 ---
 
 The combination of the terminal and shell provides a powerful interface for system control and automation, offering more extensive capabilities than typical graphical interfaces.
+
+---
+# Prompt Description
+
+## 1. Standard Bash Prompt Format
+
+The default bash prompt follows this structure:
+
+```bash
+┌──(codejoker㉿tashi)-[~/Desktop]
+└─$ 
+
+```
+
+## 2. Prompt Components
+
+**Username (@): ( codejoker )**
+
+- Shows the currently logged-in user
+- Appears before the @ symbol
+- Helps identify who is executing commands
+
+**Hostname: ( tashi )**
+
+- Appears after the @ symbol
+- Identifies the computer system you're working on
+- Particularly useful when working with multiple systems
+
+**Current Directory: ( Desktop )**
+
+- Shows your present location in the file system
+- ~ (tilde) represents your home directory
+- Full path is shown when outside home directory
+
+**Prompt Symbol:**
+
+- $ indicates a regular user acco
+
+# indicates root user privileges
+
+- Appears at the end of the prompt
+
+## 3. Common Prompt Variations
+
+**Regular User Home Directory:**
+
+```bash
+┌──(codejoker㉿tashi)-[~]
+└─$ 
+```
+
+**Root User Example:**
+
+```bash
+┌──(root㉿tashi)-[/home/codejoker]
+└─# 
+```
+
+**Regular User in System Directory:**
+
+```bash
+user@hostname:/etc$
+
+```
+
+Bash Prompt Special Characters
+
+| Special Character | Description                              |
+|-------------------|------------------------------------------|
+| `\d`             | Date (Mon Feb 6)                        |
+| `\D{%Y-%m-%d}`   | Date (YYYY-MM-DD)                       |
+| `\H`             | Full hostname                           |
+| `\j`             | Number of jobs managed by the shell     |
+| `\n`             | Newline                                 |
+| `\r`             | Carriage return                         |
+| `\s`             | Name of the shell                       |
+| `\t`             | Current time 24-hour (HH:MM)            |
+| `\T`             | Current time 12-hour (HH:MM)            |
+| `\@`             | Current time                            |
+| `\u`             | Current username                        |
+| `\w`             | Full path of the current working directory |
+
+## 4. Basic Shell Prompts
+
+When environment variables aren't properly set (common in reverse shells or minimal environments):
+
+- May only show $ for regular users
+- May only show # for root users
+- Missing username, hostname, and directory information
+
+## 5. Practical Significance
+
+**The prompt provides crucial information:**
+
+- User identity and privilege level
+- Current system location
+- Navigation reference in file system
+- Quick verification of user permissions
+
+## 6. Security Implications
+
+**The prompt helps in:**
+
+- Identifying privilege level before executing commands
+- Confirming system identity in remote sessions
+- Verifying working directory for file operations
+- Distinguishing between regular and administrative access
+
+Note: The prompt can be customized using the PS1 environment variable to display additional information or modify its appearance based on user preferences.
+
