@@ -40,7 +40,7 @@ These distributions are versatile and suitable for a wide range of use cases.
      - **Ubuntu Desktop**: For personal computers.
      - **Ubuntu Server**: For server environments.
      - **Ubuntu Core**: For IoT and embedded systems.
-![ParrotOS](/public/ubuntu.png)
+![ParrotOS](/images/ubuntu.png)
 
 2. **Fedora**:
    - **Key Features**:
@@ -49,7 +49,7 @@ These distributions are versatile and suitable for a wide range of use cases.
    - **Use Cases**:
      - Developers and tech enthusiasts who want the latest features.
    - **Package Manager**: `dnf` (Dandified Yum).
-![ParrotOS](/public/fedora.png)
+![ParrotOS](/images/fedora.png)
 
 3. **CentOS**:
    - **Key Features**:
@@ -58,7 +58,7 @@ These distributions are versatile and suitable for a wide range of use cases.
    - **Use Cases**:
      - Enterprise servers and production environments.
    - **Package Manager**: `yum` or `dnf`.
-![ParrotOS](/public/centos.png)
+![ParrotOS](/images/centos.png)
 
 4. **Debian**:
    - **Key Features**:
@@ -67,7 +67,7 @@ These distributions are versatile and suitable for a wide range of use cases.
    - **Use Cases**:
      - Servers, desktops, and embedded systems.
    - **Package Manager**: `apt`.
-![ParrotOS](/public/debain.png)
+![ParrotOS](/images/debain.png)
 
 5. **Red Hat Enterprise Linux (RHEL)**:
    - **Key Features**:
@@ -76,7 +76,7 @@ These distributions are versatile and suitable for a wide range of use cases.
    - **Use Cases**:
      - Businesses, data centers, and mission-critical applications.
    - **Package Manager**: `yum` or `dnf`.
-![ParrotOS](/public/redhat.png)
+![ParrotOS](/images/redhat.png)
 
 ---
 
@@ -91,7 +91,7 @@ These distributions are designed for penetration testing, ethical hacking, and s
      - Cybersecurity professionals and ethical hackers.
    - **Special Tools**:
      - **Pwnbox**: A cloud-based penetration testing environment.
-![ParrotOS](/public/parrot.png)
+![ParrotOS](/images/parrot.png)
 
 2. **Kali Linux**:
    - **Key Features**:
@@ -101,7 +101,7 @@ These distributions are designed for penetration testing, ethical hacking, and s
      - Ethical hacking, penetration testing, and security assessments.
    - **Special Tools**:
      - Tools like Metasploit, Wireshark, and Nmap.
-![kali](/public/kali.png)
+![kali](/images/kali.png)
 
 3. **BlackArch**:
    - **Key Features**:
@@ -109,7 +109,7 @@ These distributions are designed for penetration testing, ethical hacking, and s
      - Includes a vast collection of security tools (over 2,000).
    - **Use Cases**:
      - Advanced penetration testers and security researchers.
-![kali](/public/black.png)
+![kali](/images/black.png)
 
 4. **BackBox**:
    - **Key Features**:
@@ -117,7 +117,7 @@ These distributions are designed for penetration testing, ethical hacking, and s
      - Includes tools for vulnerability assessment and forensics.
    - **Use Cases**:
      - Security assessments and penetration testing.
-![kali](/public/blackbox.png)
+![kali](/images/blackbox.png)
 
 5. **Pentoo**:
    - **Key Features**:
@@ -125,7 +125,7 @@ These distributions are designed for penetration testing, ethical hacking, and s
      - Includes tools for reverse engineering, forensics, and exploitation.
    - **Use Cases**:
      - Security professionals and researchers.
-![kali](/public/pentoo.png)
+![kali](/images/pentoo.png)
 
 ---
 
