@@ -2,7 +2,7 @@
 title: "Shell and Terminal Overview"
 description: "An introduction to shells, terminal emulators, and their practical applications in Linux."
 pubDate: 2025-04-16
-heroImage: "public/images/shell.png"
+heroImage: "/images/shell.png"
 readingTime: "6 min read"
 tags: ["Notes", "Shell", "Linux", "Command Line"]
 ---
