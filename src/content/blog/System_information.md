@@ -333,3 +333,148 @@ drwxrwxr-x   9 codejoker codejoker   4096 Apr 16 12:05 src
 └─$ 
 
 ```
+
+## Editing Files
+
+**Using Nano Editor:**
+
+- Nano is one of the most beginner-friendly text editors in Linux
+- It's best suited for quick edits and beginners getting started with Linux text editing
+
+**To start using Nano:**
+
+- Open Nano by typing: nano filename.txt
+- This will either open an existing file or create a new one if it doesn't exist
+
+**Basic Nano Controls:**
+
+- Use arrow keys to navigate
+- Type normally to insert text
+- Ctrl + O: Save file
+- Ctrl + X: Exit Nano
+- Ctrl + G: Get help
+
+```bash
+┌──(codejoker㉿tashi)-[~/Documents/Sample]
+└─$ nano sample.txt
+
+This is the demo file 
+
+
+^G Help          ^O Write Out     ^F Where Is      ^K Cut           ^T Execute       ^C Location      M-U Undo         M-A Set Mark     M-] To Bracket
+^X Exit          ^R Read File     ^\ Replace       ^U Paste         ^J Justify       ^/ Go To Line    M-E Redo         M-6 Copy         ^B Where Was
+```
+
+To view the content of the file we can use the cat command.
+
+```bash 
+┌──(codejoker㉿tashi)-[~/Documents/Sample]
+└─$ cat sample.txt
+This is the demo file
+                                                                                                                                                             
+┌──(codejoker㉿tashi)-[~/Documents/Sample]
+└─$ 
+```
+**Important Linux Files for Penetration Testing**
+
+**/etc/passwd file:**
+
+- Contains critical user information:
+    - Usernames
+    - User IDs (UIDs)
+    - Group IDs (GIDs)
+    - Home directories
+
+**/etc/shadow file:**
+
+- Stores password hashes
+- Has stricter permissions than /etc/passwd
+- More secure storage location for sensitive authentication data
+
+**Security Implications:**
+
+- Misconfigured permissions can lead to:
+    - Exposure of sensitive information
+    - Privilege escalation opportunities
+    - Unauthorized access to user data
+
+**Penetration Testing Focus:**
+
+- Check for improper file permissions
+- Look for weak user accounts
+- Identify misconfigured file access
+- Assess overall system security posture
+
+
+## Vim 
+
+**Vim Editor Overview:**
+
+- A powerful and advanced text editor
+
+**Key Features:**
+
+- Open-source ASCII text editor
+- Improved version of Vi
+- Focuses on essential text editing functions
+- Small and compact design
+- Fast and flexible operation
+
+**Integration with External Tools:**
+
+- Interfaces with other Unix tools:
+    - grep
+    - awk
+    - sed
+    - Other specialized programs
+
+**Unix Philosophy:**
+
+- Follows principle of small, specialized programs
+- Programs work together for enhanced functionality
+- Results in flexible and powerful system
+
+**Best For:**
+
+- Experienced users and complex editing tasks
+
+```bash 
+┌──(codejoker㉿tashi)-[~/Documents/Sample]
+└─$ vi 
+```
+```bash
+                                                                                                               
+~                                                                                                                                                            
+~                                                                     VIM - Vi IMproved                                                                      
+~                                                                                                                                                            
+~                                                                     version 9.1.1113                                                                       
+~                                                                 by Bram Moolenaar et al.                                                                   
+~                                                          Modified by team+vim@tracker.debian.org                                                           
+~                                                        Vim is open source and freely distributable                                                         
+~                                                                                                                                                            
+~                                                               Become a registered Vim user!                                                                
+~                                                      type  :help register<Enter>   for information                                                         
+~                                                                                                                                                            
+~                                                      type  :q<Enter>               to exit                                                                 
+~                                                      type  :help<Enter>  or  <F1>  for on-line help                                                        
+~                                                      type  :help version9<Enter>   for version info                                                        
+~                                                                                                                                                            
+~                                                               Running in Vi compatible mode                                                                
+~                                                      type  :set nocp<Enter>        for Vim defaults                                                        
+~                                                      type  :help cp-default<Enter> for info on this                                                        
+~                                                                                                                                                            
+~                                                                                                                                                            
+~                                                                                                        
+```
+
+Vim offers a total of six fundamental modes that make our work easier and make this editor so powerful:
+
+| Mode    | Description |
+|---------|-------------|
+| Normal  | In normal mode, all inputs are considered as editor commands. So there is no insertion of the entered characters into the editor buffer, as is the case with most other editors. After starting the editor, we are usually in the normal mode. |
+| Insert  | With a few exceptions, all entered characters are inserted into the buffer. |
+| Visual  | The visual mode is used to mark a contiguous part of the text, which will be visually highlighted. By positioning the cursor, we change the selected area. The highlighted area can then be edited in various ways, such as deleting, copying, or replacing it. |
+| Command | It allows us to enter single-line commands at the bottom of the editor. This can be used for sorting, replacing text sections, or deleting them, for example. |
+| Replace | In replace mode, the newly entered text will overwrite existing text characters unless there are no more old characters at the current cursor position. Then the newly entered text will be added. |
+| Ex      | Emulates the behavior of the text editor Ex, one of the predecessors of Vim. Provides a mode where we can execute multiple commands sequentially without returning to Normal mode after each command. |
+
