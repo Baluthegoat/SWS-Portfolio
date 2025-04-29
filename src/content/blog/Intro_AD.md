@@ -79,7 +79,7 @@ Major Developments:
     - Group Managed Service Accounts (gMSA)
     - Azure AD Connect for Office 365 integration
 
-![image.png](/public/images/ad.jpg)
+![image.png](/images/ad.jpg)
 
 Current State:
 
